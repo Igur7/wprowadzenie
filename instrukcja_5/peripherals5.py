@@ -21,7 +21,7 @@ def LedClr(pos):
 def KeysInit():
     return [
         machine.Pin(gpio, machine.Pin.IN, machine.Pin.PULL_UP)
-        for gpio in (9,8,7,6)
+        for gpio in (27,28,1,0)
     ]
     
 def KeyRead(pos):
